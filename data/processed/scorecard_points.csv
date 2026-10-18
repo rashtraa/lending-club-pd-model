@@ -1,0 +1,44 @@
+feature,bin,pop_%,bad_rate,woe,points
+term, 60 months,25.5,0.283,-0.655,35
+term, 36 months,74.5,0.132,0.303,62
+fico_bin,"(-inf, 660.0]",8.2,0.229,-0.371,44
+fico_bin,"(660.0, 675.0]",24.5,0.211,-0.262,46
+fico_bin,"(675.0, 690.0]",21.8,0.188,-0.119,50
+fico_bin,"(690.0, 710.0]",21.3,0.157,0.098,56
+fico_bin,"(710.0, 740.0]",15.5,0.122,0.394,64
+fico_bin,"(740.0, inf]",8.7,0.077,0.893,77
+dti_bin,"(-inf, 10.0]",19.8,0.129,0.329,58
+dti_bin,"(10.0, 15.0]",21.9,0.147,0.175,56
+dti_bin,"(15.0, 20.0]",22.7,0.169,0.006,53
+dti_bin,"(20.0, 25.0]",18.4,0.193,-0.152,51
+dti_bin,"(25.0, 30.0]",11.3,0.216,-0.292,49
+dti_bin,"(30.0, inf]",5.9,0.243,-0.446,46
+verif_grp,Verified,68.2,0.189,-0.129,53
+verif_grp,Not Verified,31.8,0.129,0.323,55
+annual_inc_bin,"(-inf, 40000.0]",19.3,0.203,-0.219,45
+annual_inc_bin,"(40000.0, 55000.0]",21.6,0.188,-0.122,49
+annual_inc_bin,"(55000.0, 75000.0]",24.3,0.173,-0.023,52
+annual_inc_bin,"(75000.0, 100000.0]",18.2,0.149,0.161,59
+annual_inc_bin,"(100000.0, 150000.0]",12.2,0.129,0.329,65
+annual_inc_bin,"(150000.0, inf]",4.4,0.122,0.386,67
+loan_amnt_bin,"(-inf, 7000.0]",21.6,0.138,0.249,59
+loan_amnt_bin,"(7000.0, 11000.0]",22.1,0.157,0.1,55
+loan_amnt_bin,"(11000.0, 15000.0]",19.3,0.173,-0.016,53
+loan_amnt_bin,"(15000.0, 20000.0]",16.6,0.19,-0.135,50
+loan_amnt_bin,"(20000.0, 28000.0]",13.1,0.195,-0.166,50
+loan_amnt_bin,"(28000.0, inf]",7.3,0.211,-0.266,47
+inq_last_6mths_bin,"(-inf, 0.0]",51.5,0.151,0.14,57
+inq_last_6mths_bin,"(0.0, 1.0]",28.0,0.178,-0.056,52
+inq_last_6mths_bin,"(1.0, 2.0]",12.5,0.198,-0.183,48
+inq_last_6mths_bin,"(2.0, inf]",8.0,0.221,-0.324,44
+purpose_grp,small_business,1.5,0.268,-0.577,39
+purpose_grp,other_risky,7.4,0.188,-0.118,50
+purpose_grp,debt_consolidation,58.7,0.18,-0.07,52
+purpose_grp,home_improvement,5.7,0.152,0.136,57
+purpose_grp,credit_card,22.3,0.143,0.209,58
+purpose_grp,purchase_safe,4.4,0.136,0.265,60
+home_ownership_grp,RENT,40.7,0.19,-0.132,49
+home_ownership_grp,OWN,8.9,0.174,-0.029,52
+home_ownership_grp,MORTGAGE,50.4,0.154,0.121,57
+emp_length_stated,not_stated,4.5,0.221,-0.326,44
+emp_length_stated,stated,95.5,0.168,0.017,54

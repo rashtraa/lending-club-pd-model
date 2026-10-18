@@ -1,0 +1,100 @@
+{
+  "final_bins": [
+    "term",
+    "fico_bin",
+    "dti_bin",
+    "verif_grp",
+    "annual_inc_bin",
+    "revol_util_bin",
+    "loan_amnt_bin",
+    "inq_last_6mths_bin",
+    "purpose_grp",
+    "home_ownership_grp",
+    "emp_length_stated"
+  ],
+  "fico_edges": [
+    "-inf",
+    "660",
+    "675",
+    "690",
+    "710",
+    "740",
+    "inf"
+  ],
+  "bin_edges": {
+    "dti": [
+      "-inf",
+      "10",
+      "15",
+      "20",
+      "25",
+      "30",
+      "inf"
+    ],
+    "revol_util": [
+      "-inf",
+      "25",
+      "40",
+      "55",
+      "70",
+      "85",
+      "inf"
+    ],
+    "annual_inc": [
+      "-inf",
+      "40000",
+      "55000",
+      "75000",
+      "100000",
+      "150000",
+      "inf"
+    ],
+    "loan_amnt": [
+      "-inf",
+      "7000",
+      "11000",
+      "15000",
+      "20000",
+      "28000",
+      "inf"
+    ],
+    "inq_last_6mths": [
+      "-inf",
+      "0",
+      "1",
+      "2",
+      "inf"
+    ]
+  },
+  "purpose_groups": {
+    "small_business": "small_business",
+    "debt_consolidation": "debt_consolidation",
+    "credit_card": "credit_card",
+    "home_improvement": "home_improvement",
+    "other": "other_risky",
+    "medical": "other_risky",
+    "house": "other_risky",
+    "moving": "other_risky",
+    "renewable_energy": "other_risky",
+    "educational": "other_risky",
+    "car": "purchase_safe",
+    "major_purchase": "purchase_safe",
+    "wedding": "purchase_safe",
+    "vacation": "purchase_safe"
+  },
+  "iv": {
+    "term": 0.1954,
+    "fico_bin": 0.1085,
+    "dti_bin": 0.054,
+    "verif_grp": 0.0415,
+    "annual_inc_bin": 0.0355,
+    "revol_util_bin": 0.0283,
+    "loan_amnt_bin": 0.0271,
+    "inq_last_6mths_bin": 0.0243,
+    "purpose_grp": 0.023,
+    "home_ownership_grp": 0.0146,
+    "emp_length_stated": 0.0056
+  },
+  "train_rows": 453780,
+  "test_rows": 375546
+}

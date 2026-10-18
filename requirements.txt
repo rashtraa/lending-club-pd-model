@@ -1,0 +1,22 @@
+# Python 3.12.4
+#
+# Pinned to the minor versions the notebooks were run against. If you regenerate
+# this with pip freeze, keep it to packages actually imported — a full freeze of
+# the venv drags in transitive dependencies nobody needs to read.
+
+pandas>=2.2,<3.0
+numpy>=1.26,<2.2
+pyarrow>=15.0            # parquet engine for the cached frames
+scikit-learn>=1.4,<2.0
+statsmodels>=0.14        # sm.Logit for the scorecard
+xgboost>=2.0,<4.0
+lifelines>=0.28          # KaplanMeierFitter, AalenJohansenFitter, CoxPHFitter
+shap>=0.44
+matplotlib>=3.8
+
+# Data download
+kaggle>=1.6
+
+# Notebook environment
+jupyter>=1.0
+ipykernel>=6.29
